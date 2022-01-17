@@ -13,6 +13,7 @@ import { Routes, Route, Link } from "react-router-dom";
 import UseCallBackk from './compoment/contex/f8/UseCallBackk';
 import Usememoo from './compoment/contex/f8/Usememoo';
 import Homecontex from './compoment/contex/Homecontex';
+import Minform from './compoment/tapform/Minform';
 
 function App() {
   var runtext = 'cccccccccccccc';
@@ -25,6 +26,7 @@ function App() {
         <Route path="/usecallback" element={<UseCallBackk/>} />
         <Route path="/usememo" element={<Usememoo/>} />
         <Route path="/contex" element={<Homecontex/>} />
+        <Route path="/test" element={<Minform/>} />
       </Routes>
     </div>
   );
